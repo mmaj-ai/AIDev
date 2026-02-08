@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marcin Maj | Architekt Rozwoju Cyfrowego Systemów Produkcji</title>
+    <title>Marcin Maj | Ekspert Inwestycji, Produkcji i UR</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
@@ -28,14 +28,14 @@
             border-radius: 4px;
         }
 
-        /* Chart Container Styling - MANDATORY per requirements */
+        /* Chart Container Styling */
         .chart-container {
             position: relative;
             width: 100%;
-            max-width: 600px; /* Constraint for large screens */
+            max-width: 600px; 
             margin-left: auto;
             margin-right: auto;
-            height: 300px; /* Base height */
+            height: 300px; 
             max-height: 400px;
         }
         
@@ -67,21 +67,22 @@
             border-color: #3b82f6;
         }
     </style>
-    <!-- Chosen Palette: Slate & Neon Blue (Professional, Tech-forward, High Contrast) -->
+    <!-- Chosen Palette: Industrial Slate & Tech Blue -->
     <!-- Application Structure Plan: 
-         1. Header: Quick contact & role definition focused on Production.
-         2. Hero: "The Architect's Vision" - Transition from robot coding to production architecture.
-         3. Dashboard (Grid): 
-            - Stats (120M PLN, 20Y Exp).
-            - Radar Chart (Focus on Production Systems).
-         4. Experience Explorer (Interactive Tabs):
-            - Eras: Automotive (Robotics), Investment (Management), Production Optimization (Current).
-         5. Technical Evolution (Line Chart): Shift towards intelligent production systems.
-         6. Portfolio: 120M PLN breakdown.
+         1. Header: Focused on Technical Direction, Investments & UR.
+         2. Hero: 120M PLN Investment Expert.
+         3. Dashboard: 
+            - Stats (120M PLN, UR KPIs).
+            - Radar Chart (Balanced Production/Maintenance).
+         4. Experience Timeline: 
+            - 2002-2007: Dürr (Greenfield/Brownfield focus).
+            - 2007-2023: Soudal Manufacturing (Investment & UR focus).
+            - 2018-Obecnie: Soudal Services (Development & Optimization, including PLANT 5 & China).
+         5. Portfolio: Breakdown of the 120M PLN assets.
     -->
     <!-- Visualization & Content Choices:
-         - Radar Chart: Focus on Production/Maintenance vs Management.
-         - Doughnut: Budget allocation for Production facilities.
+         - Radar Chart: Highlighting Greenfield expertise.
+         - Doughnut: Budget allocation for industrial facilities.
     -->
     <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
 </head>
@@ -99,8 +100,8 @@
                         <div class="ml-10 flex items-baseline space-x-4">
                             <a href="#" onclick="scrollToSection('hero')" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Start</a>
                             <a href="#" onclick="scrollToSection('dashboard')" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Kompetencje</a>
-                            <a href="#" onclick="scrollToSection('experience')" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Ścieżka Kariery</a>
-                            <a href="#" onclick="scrollToSection('portfolio')" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Portfel 120M</a>
+                            <a href="#" onclick="scrollToSection('experience')" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Doświadczenie</a>
+                            <a href="#" onclick="scrollToSection('portfolio')" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Inwestycje 120M</a>
                         </div>
                     </div>
                 </div>
@@ -121,30 +122,30 @@
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
                 <h1 class="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl mb-6">
                     <span class="block">Marcin Maj</span>
-                    <span class="block text-blue-500 text-2xl sm:text-4xl mt-2">Architekt Rozwoju Systemów Produkcji</span>
+                    <span class="block text-blue-500 text-2xl sm:text-4xl mt-2">Ekspert Inwestycji, Produkcji i UR</span>
                 </h1>
-                <p class="mt-4 max-w-2xl mx-auto text-xl text-slate-400">
-                    Od programowania robotów dla Porsche po zarządzanie inwestycjami <strong>120 mln PLN</strong>. 
-                    Optymalizuję <strong>produkcję</strong> poprzez zaawansowane symulacje, tworząc fundamenty pod suwerenne AI w przemyśle.
+                <p class="mt-4 max-w-3xl mx-auto text-xl text-slate-400">
+                    Ponad 20 lat doświadczenia w zarządzaniu <strong>inwestycjami (120 mln PLN)</strong>. 
+                    Aktualnie zaangażowany w strategiczne projekty grupy Soudal: <strong>PLANT 5</strong> oraz systemy produkcyjne w <strong>Chinach</strong>.
                 </p>
                 
                 <!-- Quick Stats Grid -->
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12 max-w-4xl mx-auto">
                     <div class="glass-panel p-4 rounded-xl">
                         <div class="text-3xl font-bold text-blue-400">120 MLN</div>
-                        <div class="text-sm text-slate-400">Zarządzany Portfel (PLN)</div>
+                        <div class="text-sm text-slate-400">Budżet Inwestycyjny (PLN)</div>
                     </div>
                     <div class="glass-panel p-4 rounded-xl">
-                        <div class="text-3xl font-bold text-blue-400">20+</div>
-                        <div class="text-sm text-slate-400">Lat Doświadczenia</div>
+                        <div class="text-3xl font-bold text-blue-400">PLANT 5</div>
+                        <div class="text-sm text-slate-400">Aktualna Inwestycja</div>
                     </div>
                     <div class="glass-panel p-4 rounded-xl">
-                        <div class="text-3xl font-bold text-blue-400">3</div>
-                        <div class="text-sm text-slate-400">Kontynenty (EU, Azja, USA)</div>
+                        <div class="text-3xl font-bold text-blue-400">CHINY</div>
+                        <div class="text-sm text-slate-400">Uruchomienia Systemów</div>
                     </div>
                     <div class="glass-panel p-4 rounded-xl">
-                        <div class="text-3xl font-bold text-blue-400">OEE</div>
-                        <div class="text-sm text-slate-400">Optymalizacja Produkcji</div>
+                        <div class="text-3xl font-bold text-blue-400">PRESENT</div>
+                        <div class="text-sm text-slate-400">Stały Rozwój i Optymalizacja</div>
                     </div>
                 </div>
             </div>
@@ -155,51 +156,45 @@
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="mb-10 text-center">
                     <h2 class="text-3xl font-bold text-white">Profil Kompetencyjny</h2>
-                    <p class="mt-2 text-slate-400">Unikalne połączenie inżynierii systemów produkcji z nowoczesną analityką danych.</p>
+                    <p class="mt-2 text-slate-400">Kluczowe filary efektywności technicznej i operacyjnej.</p>
                 </div>
 
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-                    <!-- Radar Chart Column -->
                     <div class="bg-slate-900 p-6 rounded-2xl shadow-xl border border-slate-700">
-                        <h3 class="text-xl font-semibold text-white mb-4 text-center">Matryca Umiejętności</h3>
+                        <h3 class="text-xl font-semibold text-white mb-4 text-center">Matryca Ekspercka</h3>
                         <div class="chart-container">
                             <canvas id="competenceChart"></canvas>
                         </div>
                     </div>
 
-                    <!-- Skills Detail Column -->
                     <div class="space-y-6">
-                        <!-- Skill Group 1 -->
                         <div class="glass-panel p-5 rounded-xl border-l-4 border-blue-500">
-                            <h3 class="text-lg font-bold text-white mb-2">🏭 Inżynieria Produkcji & Industry 4.0</h3>
-                            <p class="text-slate-300 text-sm mb-3">Modelowanie systemów produkcji we FlexSim, tworzenie wirtualnych poligonów do treningu AI, integracja PLC/SCADA z systemami MES.</p>
+                            <h3 class="text-lg font-bold text-white mb-2">🛠️ Inwestycje i UR (Soudal do 2023)</h3>
+                            <p class="text-slate-300 text-sm mb-3">Zarządzanie pełnym cyklem życia maszyn i infrastruktury. Wdrażanie TPM oraz systemów predykcyjnych w celu minimalizacji awarii.</p>
                             <div class="flex flex-wrap gap-2">
-                                <span class="px-2 py-1 bg-blue-900 text-blue-200 text-xs rounded">FlexSim</span>
-                                <span class="px-2 py-1 bg-blue-900 text-blue-200 text-xs rounded">Optymalizacja</span>
-                                <span class="px-2 py-1 bg-blue-900 text-blue-200 text-xs rounded">Analiza OEE</span>
-                                <span class="px-2 py-1 bg-blue-900 text-blue-200 text-xs rounded">AI on-premise</span>
+                                <span class="px-2 py-1 bg-blue-900 text-blue-200 text-xs rounded">TPM</span>
+                                <span class="px-2 py-1 bg-blue-900 text-blue-200 text-xs rounded">CMMS / SAP</span>
+                                <span class="px-2 py-1 bg-blue-900 text-blue-200 text-xs rounded">Predictive Maintenance</span>
                             </div>
                         </div>
 
-                        <!-- Skill Group 2 -->
                         <div class="glass-panel p-5 rounded-xl border-l-4 border-green-500">
-                            <h3 class="text-lg font-bold text-white mb-2">💰 Zarządzanie Inwestycjami (120M PLN)</h3>
-                            <p class="text-slate-300 text-sm mb-3">Zarządzanie budżetem produkcyjnym. Projekty Greenfield i Brownfield. Pełna odpowiedzialność za rozwój aktywów w Polsce i za granicą.</p>
+                            <h3 class="text-lg font-bold text-white mb-2">🏢 Inwestycje Greenfield & Brownfield</h3>
+                            <p class="text-slate-300 text-sm mb-3">Doświadczenie w budowie fabryk od zera (Dürr, Soudal) oraz modernizacji i automatyzacji linii dla marek premium (Porsche, VW, PSA).</p>
                             <div class="flex flex-wrap gap-2">
-                                <span class="px-2 py-1 bg-green-900 text-green-200 text-xs rounded">CAPEX</span>
-                                <span class="px-2 py-1 bg-green-900 text-green-200 text-xs rounded">Greenfield</span>
-                                <span class="px-2 py-1 bg-green-900 text-green-200 text-xs rounded">Strategia Produkcji</span>
+                                <span class="px-2 py-1 bg-green-900 text-green-200 text-xs rounded">Budowa Fabryk</span>
+                                <span class="px-2 py-1 bg-green-900 text-green-200 text-xs rounded">Automotive Systems</span>
+                                <span class="px-2 py-1 bg-green-900 text-green-200 text-xs rounded">Modernizacja Linii</span>
                             </div>
                         </div>
 
-                        <!-- Skill Group 3 -->
                         <div class="glass-panel p-5 rounded-xl border-l-4 border-purple-500">
-                            <h3 class="text-lg font-bold text-white mb-2">🤖 Robotyka & UR</h3>
-                            <p class="text-slate-300 text-sm mb-3">Doświadczenie operacyjne: programowanie robotów, systemy wizyjne, zarządzanie Utrzymaniem Ruchu w dużych zakładach.</p>
+                            <h3 class="text-lg font-bold text-white mb-2">📈 Rozwój i Optymalizacja (2018 - Obecnie)</h3>
+                            <p class="text-slate-300 text-sm mb-3">Wykorzystanie symulacji i analityki danych do zwiększania przepustowości produkcji w kluczowych zakładach grupy (PLANT 5, Chiny).</p>
                             <div class="flex flex-wrap gap-2">
-                                <span class="px-2 py-1 bg-purple-900 text-purple-200 text-xs rounded">Pattern Recognition</span>
-                                <span class="px-2 py-1 bg-purple-900 text-purple-200 text-xs rounded">PLC / Robotyk</span>
-                                <span class="px-2 py-1 bg-purple-900 text-purple-200 text-xs rounded">Automotive</span>
+                                <span class="px-2 py-1 bg-purple-900 text-purple-200 text-xs rounded">Symulacje Procesowe</span>
+                                <span class="px-2 py-1 bg-purple-900 text-purple-200 text-xs rounded">Systemy Produkcyjne</span>
+                                <span class="px-2 py-1 bg-purple-900 text-purple-200 text-xs rounded">OEE Optimization</span>
                             </div>
                         </div>
                     </div>
@@ -211,26 +206,24 @@
         <section id="experience" class="py-12 bg-slate-900">
             <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="mb-10 text-center">
-                    <h2 class="text-3xl font-bold text-white">Ewolucja Kariery</h2>
-                    <p class="mt-2 text-slate-400">Kliknij na etap, aby zobaczyć szczegóły rozwoju w obszarze produkcji.</p>
+                    <h2 class="text-3xl font-bold text-white">Historia Zawodowa i Projekty</h2>
+                    <p class="mt-2 text-slate-400">Przegląd kluczowych etapów kariery z uwzględnieniem bieżących wyzwań.</p>
                 </div>
 
-                <!-- Timeline Navigation -->
                 <div class="flex flex-wrap justify-center gap-4 mb-8">
                     <button onclick="updateTimeline('durr')" id="btn-durr" class="px-6 py-3 rounded-full text-sm font-bold transition-all border border-slate-600 hover:border-blue-400 focus:outline-none">
-                        2002-2007: Dürr (Robotyka)
+                        2002-2007: Dürr (Inwestycje)
                     </button>
                     <button onclick="updateTimeline('soudal-eng')" id="btn-soudal-eng" class="px-6 py-3 rounded-full text-sm font-bold transition-all border border-slate-600 hover:border-blue-400 focus:outline-none">
-                        2008-2018: Inwestycje
+                        2007-2023: Soudal (Inwestycje i UR)
                     </button>
                     <button onclick="updateTimeline('soudal-dev')" id="btn-soudal-dev" class="px-6 py-3 rounded-full text-sm font-bold transition-all border border-slate-600 hover:border-blue-400 focus:outline-none active-tab">
-                        2018-Obecnie: Nowoczesna Produkcja
+                        2018-Obecnie: Rozwój i Optymalizacja
                     </button>
                 </div>
 
-                <!-- Dynamic Content Container -->
                 <div id="timeline-content" class="bg-slate-800 rounded-2xl p-8 shadow-2xl border border-slate-700 fade-in">
-                    <!-- Content injected via JS -->
+                    <!-- Dynamic Content -->
                 </div>
             </div>
         </section>
@@ -240,27 +233,27 @@
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div>
-                        <h2 class="text-3xl font-bold text-white mb-4">Portfel Inwestycyjny 120 mln PLN</h2>
+                        <h2 class="text-3xl font-bold text-white mb-4">Portfel Aktywów: 120 mln PLN</h2>
                         <p class="text-slate-400 mb-6">
-                            Jako Główny Inżynier i Project Manager zarządzałem budżetem 120 mln PLN, dzieląc go strategicznie między infrastrukturę <strong>produkcyjną</strong>, modernizację parku maszynowego oraz najnowsze systemy optymalizacji.
+                            Zarządzanie portfelem inwestycyjnym o skali 120 mln PLN obejmowało budowę nowych obiektów przemysłowych oraz modernizację parku maszynowego w reżimie chemicznym i motoryzacyjnym.
                         </p>
                         <ul class="space-y-4">
                             <li class="flex items-start">
                                 <span class="flex-shrink-0 h-6 w-6 rounded-full bg-blue-500 flex items-center justify-center text-xs font-bold mt-0.5">1</span>
-                                <span class="ml-3 text-slate-300"><strong>Infrastruktura Produkcyjna:</strong> Budowa kompletnych fabryk piany poliuretanowej od podstaw.</span>
+                                <span class="ml-3 text-slate-300"><strong>Greenfield:</strong> Budowa fabryk piany PU w Polsce i Rosji (Soudal) oraz fabryki Hyundai w USA (Dürr).</span>
                             </li>
                             <li class="flex items-start">
                                 <span class="flex-shrink-0 h-6 w-6 rounded-full bg-teal-500 flex items-center justify-center text-xs font-bold mt-0.5">2</span>
-                                <span class="ml-3 text-slate-300"><strong>Zrównoważona Produkcja:</strong> Systemy dopalania katalitycznego i rejestracji LZO.</span>
+                                <span class="ml-3 text-slate-300"><strong>Brownfield:</strong> Modernizacja linii produkcyjnych dla marek Porsche, VW, PSA.</span>
                             </li>
                             <li class="flex items-start">
                                 <span class="flex-shrink-0 h-6 w-6 rounded-full bg-purple-500 flex items-center justify-center text-xs font-bold mt-0.5">3</span>
-                                <span class="ml-3 text-slate-300"><strong>Optymalizacja Cyfrowa:</strong> Wdrożenia SAP, MES i systemów predykcyjnych na liniach.</span>
+                                <span class="ml-3 text-slate-300"><strong>Strategic Assets:</strong> Uruchomienie systemów produkcyjnych w Chinach oraz realizacja PLANT 5.</span>
                             </li>
                         </ul>
                     </div>
                     <div class="bg-slate-900 p-6 rounded-2xl border border-slate-700">
-                        <h3 class="text-center text-white font-semibold mb-4">Struktura Alokacji Budżetu Produkcyjnego</h3>
+                        <h3 class="text-center text-white font-semibold mb-4">Struktura Inwestycji i Aktywów</h3>
                         <div class="chart-container">
                             <canvas id="portfolioChart"></canvas>
                         </div>
@@ -269,27 +262,15 @@
             </div>
         </section>
 
-        <!-- Education & Certs Footer -->
+        <!-- Education Footer -->
         <section class="bg-slate-900 py-8 border-t border-slate-800">
-            <div class="max-w-7xl mx-auto px-4 text-center">
-                <h3 class="text-xl font-bold text-white mb-6">Edukacja i Certyfikaty</h3>
-                <div class="flex flex-wrap justify-center gap-6">
-                    <div class="bg-slate-800 px-4 py-2 rounded-lg border border-slate-700 text-slate-300 text-sm">
-                        🎓 Politechnika Warszawska (Akademia Kaizen)
-                    </div>
-                    <div class="bg-slate-800 px-4 py-2 rounded-lg border border-slate-700 text-slate-300 text-sm">
-                        🎓 Politechnika Częstochowska (Inż. Mech. & IT)
-                    </div>
-                    <div class="bg-slate-800 px-4 py-2 rounded-lg border border-slate-700 text-slate-300 text-sm">
-                        📜 Certyfikat FlexSim
-                    </div>
-                    <div class="bg-slate-800 px-4 py-2 rounded-lg border border-slate-700 text-slate-300 text-sm">
-                        📜 Międzynarodowy Trener KAIZEN
-                    </div>
+            <div class="max-w-7xl mx-auto px-4 text-center text-slate-500 text-xs">
+                <div class="flex flex-wrap justify-center gap-6 mb-4">
+                    <span>🎓 Politechnika Warszawska (Kaizen)</span>
+                    <span>🎓 Politechnika Częstochowska (Inż. Mech.)</span>
+                    <span>📜 Certyfikat FlexSim</span>
                 </div>
-                <p class="mt-8 text-slate-500 text-xs">
-                    &copy; 2026 Marcin Maj. Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji.
-                </p>
+                <p>&copy; 2026 Marcin Maj. Dane aktualne na luty 2026.</p>
             </div>
         </section>
 
@@ -297,60 +278,56 @@
 
     <!-- JavaScript Logic -->
     <script>
-        // Data Store for Interactive Timeline
         const timelineData = {
             'durr': {
-                title: "Inżynieria Robotyki & Produkcji Automotive",
-                role: "Project Manager – Inżynier Robotyki | Dürr",
-                period: "07.2002 – 05.2007",
-                desc: "Początki kariery oparte na automatyzacji linii produkcyjnych. Praca dla gigantów motoryzacyjnych (Porsche, VW, PSA) na trzech kontynentach.",
+                title: "Inwestycje Greenfield i Brownfield",
+                role: "Project Manager | Dürr",
+                period: "2002 – 2007",
+                desc: "Realizacja strategicznych inwestycji w sektorze automotive na rynkach światowych.",
                 points: [
-                    "PSA Mulhouse: Nadzór nad linią produkcyjną 120 robotów.",
-                    "R&D: System rozpoznawania wzorców do korekty procesów.",
-                    "Hyundai USA: Budowa nowoczesnej linii produkcyjnej.",
-                    "Wdrożenia w Europie i Azji w reżimie automotive."
+                    "**Inwestycje Greenfield**: Udział w budowie pierwszej fabryki Hyundai w USA (Montgomery).",
+                    "**Inwestycje Brownfield**: Modernizacja i automatyzacja linii malarskich dla Porsche, VW, PSA i Renault.",
+                    "Automatyzacja procesów: Realizacja linii 120 robotów w PSA Mulhouse (Francja).",
+                    "Opracowanie algorytmów rozpoznawania wzorców do precyzyjnego pozycjonowania (Pattern Recognition)."
                 ],
                 color: "border-purple-500",
                 badge: "bg-purple-900 text-purple-200"
             },
             'soudal-eng': {
-                title: "Zarządzanie Inwestycjami Produkcyjnymi",
+                title: "Inwestycje i Utrzymanie Ruchu (UR)",
                 role: "Główny Inżynier / PM | Soudal Manufacturing",
-                period: "10.2008 – 2018",
-                desc: "Okres budowy potężnych aktywów produkcyjnych. Zarządzanie budżetami do 120 mln PLN i nadzór nad Greenfield.",
+                period: "2007 – 2023",
+                desc: "Budowa infrastruktury produkcyjnej i standaryzacja UR w reżimie przemysłowym.",
                 points: [
-                    "Budowa fabryk produkcyjnych w Polsce i Rosji.",
-                    "Zarządzanie budżetami produkcyjnymi 120 mln PLN.",
-                    "Implementacja metod Lean w celu zwiększenia wydajności produkcji.",
-                    "Modernizacja parku maszynowego (Bochem)."
+                    "Pełna realizacja fabryk Greenfield w Polsce i Rosji (budżety wielomilionowe).",
+                    "Zarządzanie budżetami operacyjnymi i modernizacyjnymi całego zakładu.",
+                    "Wdrożenie standardów **TPM i Lean** oraz systemów predykcyjnego UR.",
+                    "Dyrektor Techniczny (Bochem): Nadzór nad infrastrukturą i dokumentacją technologiczną."
                 ],
                 color: "border-green-500",
                 badge: "bg-green-900 text-green-200"
             },
             'soudal-dev': {
-                title: "Inżynieria Produkcji 4.0 & AI",
+                title: "Rozwój i Optymalizacja Systemów",
                 role: "Development Manager | Soudal Services",
-                period: "09.2018 – Obecnie",
-                desc: "Synteza doświadczenia inżynierskiego z nowoczesną optymalizacją produkcji.",
+                period: "2018 – Obecnie",
+                desc: "Projektowanie nowoczesnych systemów produkcyjnych i wdrażanie optymalizacji procesowych.",
                 points: [
-                    "Wdrażanie symulacji FlexSim w celu optymalizacji przepływów produkcji.",
-                    "Budowa systemów AI on-premise do analizy procesów produkcyjnych.",
-                    "Systemy Predictive Maintenance dla krytycznych maszyn.",
-                    "Cyfryzacja wskaźników produkcyjnych (OEE)."
+                    "**Inwestycja PLANT 5**: Udział w jednej z dwóch najważniejszych inwestycji grupy Soudal.",
+                    "**Chiny**: Udział w uruchomieniu i optymalizacji zaawansowanego systemu produkcyjnego.",
+                    "Wdrażanie symulacji FlexSim w celu optymalizacji OEE i przepustowości procesów.",
+                    "Cyfryzacja przeglądów technicznych i harmonogramowania (systemy SAP/MES)."
                 ],
                 color: "border-blue-500",
                 badge: "bg-blue-900 text-blue-200"
             }
         };
 
-        // Scroll Helper
         function scrollToSection(id) {
             document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
         }
 
-        // Timeline Update Function
         function updateTimeline(key) {
-            // Update Buttons
             document.querySelectorAll('button[id^="btn-"]').forEach(btn => {
                 btn.classList.remove('active-tab');
                 btn.classList.add('border-slate-600');
@@ -359,13 +336,11 @@
             activeBtn.classList.add('active-tab');
             activeBtn.classList.remove('border-slate-600');
 
-            // Update Content
             const data = timelineData[key];
             const container = document.getElementById('timeline-content');
             
-            // Animation reset
             container.classList.remove('fade-in');
-            void container.offsetWidth; // trigger reflow
+            void container.offsetWidth; 
             container.classList.add('fade-in');
 
             container.innerHTML = `
@@ -379,26 +354,26 @@
                     </div>
                     <p class="mt-4 text-slate-300 italic">"${data.desc}"</p>
                     <ul class="mt-6 space-y-3">
-                        ${data.points.map(p => `<li class="flex items-center text-slate-300"><span class="w-2 h-2 bg-slate-500 rounded-full mr-3"></span>${p}</li>`).join('')}
+                        ${data.points.map(p => {
+                            const formatted = p.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+                            return `<li class="flex items-center text-slate-300"><span class="w-2 h-2 bg-slate-500 rounded-full mr-3"></span>${formatted}</li>`
+                        }).join('')}
                     </ul>
                 </div>
             `;
         }
 
-        // Charts Initialization
         document.addEventListener('DOMContentLoaded', () => {
-            // Initial load of timeline
             updateTimeline('soudal-dev');
 
-            // CHART 1: Competence Radar
             const ctxRadar = document.getElementById('competenceChart').getContext('2d');
             new Chart(ctxRadar, {
                 type: 'radar',
                 data: {
-                    labels: ['Systemy Produkcji (FlexSim)', 'Zarządzanie Inwestycjami', 'Robotyka & Automatyzacja', 'AI w Przemyśle', 'Kaizen / Lean', 'Utrzymanie Ruchu'],
+                    labels: ['Inwestycje Greenfield', 'Utrzymanie Ruchu (TPM)', 'Optymalizacja OEE', 'Automotive Systems', 'Inżynieria Produkcji', 'Rozwój Systemowy'],
                     datasets: [{
-                        label: 'Poziom Ekspercki',
-                        data: [95, 100, 90, 85, 95, 90],
+                        label: 'Ekspertyza',
+                        data: [100, 95, 95, 95, 100, 95],
                         backgroundColor: 'rgba(59, 130, 246, 0.2)',
                         borderColor: '#3b82f6',
                         pointBackgroundColor: '#3b82f6',
@@ -413,31 +388,23 @@
                             angleLines: { color: '#334155' },
                             grid: { color: '#334155' },
                             pointLabels: { color: '#cbd5e1', font: { size: 12 } },
-                            ticks: { display: false, backdropColor: 'transparent' },
+                            ticks: { display: false },
                             suggestedMin: 0,
                             suggestedMax: 100
                         }
                     },
-                    plugins: {
-                        legend: { display: false }
-                    }
+                    plugins: { legend: { display: false } }
                 }
             });
 
-            // CHART 2: Portfolio Doughnut
             const ctxPortfolio = document.getElementById('portfolioChart').getContext('2d');
             new Chart(ctxPortfolio, {
                 type: 'doughnut',
                 data: {
-                    labels: ['Budowa Fabryk (Greenfield)', 'Modernizacja Linii', 'Optymalizacja & IT', 'Ekologia Produkcji'],
+                    labels: ['Budowa Fabryk (Greenfield)', 'Modernizacje (Brownfield)', 'Optymalizacja Systemowa', 'Inwestycje Strategiczne'],
                     datasets: [{
-                        data: [50, 25, 15, 10], 
-                        backgroundColor: [
-                            '#3b82f6', // Blue
-                            '#10b981', // Emerald
-                            '#8b5cf6', // Violet
-                            '#f59e0b'  // Amber
-                        ],
+                        data: [50, 20, 15, 15], 
+                        backgroundColor: ['#3b82f6', '#10b981', '#8b5cf6', '#f59e0b'],
                         borderColor: '#1e293b',
                         borderWidth: 5
                     }]
@@ -456,5 +423,4 @@
         });
     </script>
 </body>
-
 </html>
